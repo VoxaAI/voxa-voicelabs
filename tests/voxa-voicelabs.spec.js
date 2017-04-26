@@ -55,7 +55,6 @@ describe('Voxa-Voicelabs plugin', () => {
         expect(reply.msg.statements).to.have.lengthOf(1);
         expect(reply.msg.statements[0]).to.equal('Hello! How are you?');
         expect(VoicelabsAnalytics.track.called).to.be.true;
-        console.log(VoicelabsAnalytics.track.calls[0].args)
         expect(VoicelabsAnalytics.track.calls[0].args[1]).to.equal('LaunchIntent.OpenResponse');
       });
   });
