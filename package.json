@@ -1,6 +1,6 @@
 {
   "name": "voxa-voicelabs",
-  "version": "0.2.4",
+  "version": "0.1.0",
   "description": "Integrate voicelabs analytics into your Alexa apps using the voxa framework",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   ],
   "author": "Rain Agency <npm@rain.agency> (http://rain.agency)",
   "engines": {
-    "node": ">=4.3.2 <=6.10"
+    "node": "6.10"
   },
   "license": "MIT",
   "dependencies": {
