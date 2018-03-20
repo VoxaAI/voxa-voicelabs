@@ -1,18 +1,18 @@
-Voxa Voicelabs
+Voxa Dashbot
 ===========
 
-[![Build Status](https://travis-ci.org/mediarain/voxa-voicelabs.svg?branch=master)](https://travis-ci.org/mediarain/voxa-voicelabs)
-[![Coverage Status](https://coveralls.io/repos/github/mediarain/voxa-voicelabs/badge.svg?branch=master)](https://coveralls.io/github/mediarain/voxa-voicelabs?branch=master)
+[![Build Status](https://travis-ci.org/mediarain/voxa-dashbot.svg?branch=master)](https://travis-ci.org/mediarain/voxa-dashbot)
+[![Coverage Status](https://coveralls.io/repos/github/mediarain/voxa-dashbot/badge.svg?branch=master)](https://coveralls.io/github/mediarain/voxa-dashbot?branch=master)
 
-A [Voicelabs](https://www.npmjs.com/package/voicelabs) plugin for [voxa](https://mediarain.github.io/voxa/)
+A [dashbot](https://www.npmjs.com/package/dashbot) plugin for [voxa](https://mediarain.github.io/voxa/)
 
 Installation
 -------------
 
-Just install from [npm](https://www.npmjs.com/package/voxa-voicelabs)
+Just install from [npm](https://www.npmjs.com/package/voxa-dashbot)
 
 ```bash
-npm install --save voxa-voicelabs
+npm install --save voxa-dashbot
 ```
 
 Usage
@@ -20,13 +20,13 @@ Usage
 
 ```javascript
 
-const voxaVoicelabs = require('voxa-voicelabs');
+const voxaDashbot = require('voxa-dashbot');
 
-const voicelabsConfig = {
-  token: '<voicelabs token>',
+const dashbotConfig = {
+  api_key: '<dashbot api key>',
   ignoreUsers: [], // a list of users to ignore
   suppressSending: false, // A flag to supress sending hits. 
 };
 
-voxaVoicelabs(skill, voicelabsConfig);
+voxaDashbot(skill, dashbotConfig);
 ```

@@ -1,10 +1,10 @@
 /**
- * Voxa-Voicelabs ntegration
+ * Voxa-Dashbot integration
  *
- * Copyright (c) 2016 Rain Agency.
+ * Copyright (c) 2018 Rain Agency.
  * Licensed under the MIT license.
  */
 
 'use strict';
 
-module.exports = require('./lib/Voxa-Voicelabs');
+module.exports = require('./lib/Voxa-Dashbot');

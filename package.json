@@ -1,7 +1,7 @@
 {
   "name": "voxa-voicelabs",
   "version": "0.1.2",
-  "description": "Integrate voicelabs analytics into your Alexa apps using the voxa framework",
+  "description": "Integrate Dashbot (instead of voicelabs) analytics into your Alexa apps using the voxa framework",
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover _mocha -- --recursive tests",
@@ -22,7 +22,8 @@
     "amazon",
     "voxa",
     "analytics",
-    "voicelabs"
+    "voicelabs",
+    "dashbot"
   ],
   "author": "Rain Agency <npm@rain.agency> (http://rain.agency)",
   "engines": {
@@ -31,9 +32,9 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.4.1",
+    "dashbot": "^9.5.0",
     "debug": "^2.6.0",
-    "lodash": "^4.13.1",
-    "voicelabs": "^1.0.1"
+    "lodash": "^4.13.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
